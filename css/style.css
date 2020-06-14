@@ -1,0 +1,24 @@
+/* Header */
+  .navbar-brand {
+   font-size: 18px;
+   font-weight: 600;
+  }
+  .nav-link, .dropdown-item {
+   font-size: 15px;
+   font-weight: 600;
+   text-transform: uppercase;
+  }
+  nav li {
+   padding: 0 18px;
+  }
+  nav li.active, nav li.active:before {
+   background-color:black;
+   border-radius: 5px;
+  }
+  header, footer {
+  background-color:black;
+}
+
+.carousel a:hover {
+ background: rgba(255, 255, 255, 0.2);
+}
